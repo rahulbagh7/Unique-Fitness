@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: white;
+}
+
+#logo a{
+    text-decoration: none;
+    padding: 0 4px;
+    color: black;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+#top_menu{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#top_menu a{
+  text-decoration: none;
+  padding: 0 7px;
+  line-height: 50px;
+  color: black;
+}
+
+#top_menu a:hover{
+   color: #5463b8;
+}
+
+/* #mainBanner{
+    background-image: url("images/main-banner.jpg");
+    width: 100%;
+    height: 90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+/* #secBanner{
+    background-image: url("images/sec-banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+} */
+
+#quote{
+    color: white;
+    padding: 70px 0 0 10px;
+}
+
+#subscribtion{
+    background: blue;
+    color: white;
+    padding-left: 20px;
+}
+
+#learn_more{
+    width: 200px;
+    background-color: #eb8517;
+    color: white;
+}
+
+#join-our-club{
+    width: 200px;
+    border: 1px solid #eb8517;
+    color: #eb8517;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#join-our-club:hover{
+    color: white;
+    background: #eb8517;
+}
+
+#ftrainer{
+    border-radius: 100px;
+}
+
+#trainer-detail{
+    border: 1px solid #d2d4d2;
+    border-radius: 14px;
+}
+
+#make-trainer{
+    width: 250px;
+    border: 1px solid #eb8517;
+    color: #eb8517;
+    font-size: 20px;
+}
+
+#make-trainer:hover{
+    color: white;
+    background: #eb8517;
+}
+
+.type-exercise{
+    border: 1px solid #d2d4d2;
+    border-radius: 14px;
+}
+
+#footer{
+    background-color: #161716;
+    /* height: 500px; */
+}
+
+#footer h5{
+    color: white;
+}
+
+#footer p{
+    color: white;
+}
+
+#footer ul{
+    list-style-type: none;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer a:hover{
+    color: #d2d4d2;
+}
